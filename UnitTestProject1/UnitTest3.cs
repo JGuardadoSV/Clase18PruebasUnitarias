@@ -5,18 +5,15 @@ using System;
 namespace UnitTestProject1
 {
     [TestClass]
-    public class UnitTest2
+    public class UnitTest3
     {
         [TestMethod]
         public void TestMethod1()
         {
+            Operaciones op = new Operaciones();
             int uno = 1, dos = 2, respuesta = 3;
-
-            int resp=Clase18PruebasUnitarias.Program.suma(uno,dos);
-
+            int resp = op.suma(uno, dos);
             Assert.AreEqual(respuesta, resp);
-
-
 
         }
     }

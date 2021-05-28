@@ -14,7 +14,7 @@ namespace UnitTestProject1
             
             using (var sw = new StringWriter())
             {
-                Console.SetOut(sw);
+                
                 Clase18PruebasUnitarias.Program.Main();
 
                 var resultado = sw.ToString().Trim();
