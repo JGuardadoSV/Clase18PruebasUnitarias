@@ -11,8 +11,8 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             Operaciones op = new Operaciones();
-            int uno = 1, dos = 2, respuesta = 3;
-            int resp = op.suma(uno, dos);
+            int respuesta = 3;
+            int resp = op.suma(1, 2, 3.0M);
             Assert.AreEqual(respuesta, resp);
 
         }

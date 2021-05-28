@@ -8,7 +8,7 @@ namespace Clase18PruebasUnitarias
 {
    public  class Operaciones
     {
-        public  int suma(int uno, int dos)
+        public  int suma(int uno, int dos, decimal tres)
         {
             return uno + dos;
         }
